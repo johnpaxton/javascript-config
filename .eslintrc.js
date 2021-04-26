@@ -9,20 +9,20 @@ module.exports = {
 
   extends: [ 'standard', 'standard-with-typescript' ],
   rules: {
-    semi: [ 'error', 'always' ],
-    'max-len': [ 'error', { code: 90, comments: 120 } ],
     'array-bracket-spacing': [ 'error', 'always' ],
-    'space-before-function-paren': [ 'error', 'never' ],
     'comma-dangle': [ 'error', 'always-multiline' ],
-    'newline-per-chained-call': [ 'error', { ignoreChainWithDepth: 2 } ],
     indent: [ 'error', 2, { MemberExpression: 1 } ],
+    'max-len': [ 'error', { code: 90, comments: 120 } ],
+    'newline-per-chained-call': [ 'error', { ignoreChainWithDepth: 2 } ],
     'object-curly-spacing': [ 'error', 'always' ],
-    'space-in-parens': [ 'error', 'always' ],
     'object-property-newline': [
       'error',
       { allowAllPropertiesOnSameLine: true },
     ],
     'prefer-const': 'off',
+    semi: [ 'error', 'always' ],
+    'space-before-function-paren': [ 'error', 'never' ],
+    'space-in-parens': [ 'error', 'always' ],
   },
   ignorePatterns: [ 'node_modules' ],
 };
