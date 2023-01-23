@@ -22,7 +22,7 @@ module.exports = {
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
     indent: 'off',
     '@typescript-eslint/indent': ['error', 2, { MemberExpression: 1 }],
-    'max-len': ['error', { code: 90, comments: 120 }],
+    'max-len': ['error', { code: 100, comments: 120 }],
     'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
     'object-curly-spacing': 'off',
     '@typescript-eslint/object-curly-spacing': ['error', 'always'],
