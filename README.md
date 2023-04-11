@@ -8,9 +8,9 @@ At the moment, it's only one set of files. That could change later.
 
 Make these part of any repo I use:
 
-- students-eslintrc.js (as .eslintrc.js)
-- .prettierrc.js
-- babel.config.js
+- students-eslintrc.json (as .eslintrc.json)
+- .prettierrc.json
+- babel.config.json
 
 ### npm dependencies for the above
 

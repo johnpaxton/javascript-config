@@ -1,30 +1,46 @@
-module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    es2021: true,
-  },
-  parser: '@babel/eslint-parser',
-  parserOptions: {
-    requireConfigFile: false,
-  },
-  plugins: ['@babel'],
-  extends: ['standard'],
-  rules: {
-    'array-bracket-spacing': ['error', 'always'],
-    'comma-dangle': [
-      'error',
-      { functions: 'never', arrays: 'always-multiline', objects: 'always-multiline' },
-    ],
-    indent: ['error', 2, { MemberExpression: 1, SwitchCase: 1 }],
-    'max-len': ['error', { code: 100, comments: 120 }],
-    'newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
-    'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
-    'prefer-const': 'off',
-    semi: ['error', 'always'],
-    'space-before-function-paren': ['error', 'never'],
-    'space-in-parens': ['error', 'always'],
-  },
-  ignorePatterns: ['node_modules'],
-};
+{
+	"env": {
+		"browser": true,
+		"node": true,
+		"es2021": true,
+		"mocha": true
+	},
+	"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"requireConfigFile": false
+	},
+	"plugins": ["@babel"],
+	"extends": ["standard"],
+	"rules": {
+		"array-bracket-newline": ["error", { "minItems": 2 }],
+		"array-element-newline": ["error", { "multiline": true }],
+		"comma-dangle": [
+			"error",
+			{
+				"functions": "never",
+				"arrays": "always-multiline",
+				"objects": "always-multiline"
+			}
+		],
+		"indent": ["warn", "tab", { "SwitchCase": 1 }],
+		"max-len": ["warn", { "code": 100, "comments": 120 }],
+		"newline-per-chained-call": ["error", { "ignoreChainWithDepth": 1 }],
+		"no-tabs": ["off"],
+		"no-unused-vars": ["warn"],
+		"object-curly-newline": [
+			"error",
+			{
+				"ImportDeclaration": { "minProperties": 4 },
+				"ExportDeclaration": { "minProperties": 2 },
+				"ObjectExpression": { "minProperties": 2, "multiline": true, "consistent": true },
+				"ObjectPattern": { "minProperties": 3 }
+			}
+		],
+		"object-property-newline": ["error", { "allowAllPropertiesOnSameLine": false }],
+		"prefer-const": "off",
+		"semi": ["error", "always"],
+		"quotes": ["warn", "single"],
+		"space-before-function-paren": ["error", { "named": "never" }]
+	},
+	"ignorePatterns": ["node_modules"]
+}
