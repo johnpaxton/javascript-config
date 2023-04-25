@@ -18,6 +18,12 @@ Make these part of any repo I use:
 @babel/core @babel/eslint-parser @babel/eslint-plugin @babel/preset-env eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise prettier
 ```
 
+If I'm using TypeScript:  
+
+```
+@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript
+```
+
 ## TODO
 
 - I have a repo for my eslint configs. Take the code for eslint from here and move it over there so I can keep all that config in one place at one time.
