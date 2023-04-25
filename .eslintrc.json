@@ -12,7 +12,7 @@
 	"plugins": ["@babel"],
 	"extends": ["standard"],
 	"rules": {
-		"array-bracket-newline": ["error", { "minItems": 2 }],
+		"array-bracket-newline": ["error", { "minItems": 3 }],
 		"array-element-newline": ["error", { "multiline": true }],
 		"comma-dangle": [
 			"error",
