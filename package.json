@@ -10,15 +10,8 @@
   "author": "John Paxton <pax@speedingplanet.com>",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/eslint-parser": "^7.21.3",
-    "@babel/eslint-plugin": "^7.19.1",
-    "@babel/preset-env": "^7.21.4",
+    "@speedingplanet/eslint-config": "^0.0.5",
     "eslint": "^8.38.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "prettier": "^2.8.7"
+    "prettier": "^3.2.5"
   }
 }
