@@ -12,6 +12,7 @@
   "devDependencies": {
     "@speedingplanet/eslint-config": "^0.0.7",
     "eslint": "^9.5.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "prettier-plugin-jsdoc": "^1.3.0"
   }
 }

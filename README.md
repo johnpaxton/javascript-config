@@ -6,23 +6,16 @@ At the moment, it's only one set of files. That could change later.
 
 ## Current config files
 
-Make these part of any repo I use:
-
-- students-eslintrc.json (as .eslintrc.json)
 - .prettierrc.json
+- eslint.config.js
+
+Sometimes I'll use these files
 - babel.config.json
 
 ### npm dependencies for the above
 
 ```
-@babel/core @babel/eslint-parser @babel/eslint-plugin @babel/preset-env eslint eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise prettier
-```
-
-If I'm using TypeScript:  
-
-```
-@typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript
-```
+@babel/core @babel/preset-env eslint @speedingplanet/eslint-config prettier-plugin-jsdoc```
 
 ## TODO
 
