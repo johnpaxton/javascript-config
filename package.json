@@ -10,8 +10,8 @@
   "author": "John Paxton <pax@speedingplanet.com>",
   "license": "ISC",
   "devDependencies": {
-    "@speedingplanet/eslint-config": "^0.0.5",
-    "eslint": "^8.38.0",
+    "@speedingplanet/eslint-config": "^0.0.7",
+    "eslint": "^9.5.0",
     "prettier": "^3.2.5"
   }
 }
