@@ -6,16 +6,20 @@ At the moment, it's only one set of files. That could change later.
 
 ## Current config files
 
-- .prettierrc.json
-- eslint.config.js
-
-Sometimes I'll use these files
-- babel.config.json
+- Prettier
+  - .prettierrc.json
+  - .prettierignore
+- ESLint
+  - eslint.config.js
+- Other
+  - .npmrc: Ensures we're pulling dependencies from the right place
+  - .nvmrc: Convenience for those using NVM
 
 ### npm dependencies for the above
 
 ```
-@babel/core @babel/preset-env eslint @speedingplanet/eslint-config prettier-plugin-jsdoc```
+npm install -D eslint @speedingplanet/eslint-config prettier-plugin-jsdoc
+```
 
 ## TODO
 
