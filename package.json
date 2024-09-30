@@ -1,6 +1,6 @@
 {
   "name": "javascript-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "John Paxton's config files for JavaScript projects",
   "main": "index.js",
   "scripts": {

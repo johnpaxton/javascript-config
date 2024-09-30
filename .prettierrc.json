@@ -5,8 +5,5 @@
 	"htmlWhitespaceSensitivity": "ignore",
 	"singleAttributePerLine": true,
 	"trailingComma": "es5",
-	"useTabs": true,
-	"plugins": [
-		"./node_modules/prettier-plugin-jsdoc/dist/index.js"
-	]
+	"useTabs": true
 }
